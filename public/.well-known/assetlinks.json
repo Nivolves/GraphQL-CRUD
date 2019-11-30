@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "ua.in.otk.map",
+    "sha256_cert_fingerprints": ["AD:CC:8F:D8:87:2E:8E:ED:46:59:AB:76:F8:59:F0:D8:4F:69:F5:03:F4:F7:18:46:DD:40:12:33:57:84:D2:FC"] }
+}]
