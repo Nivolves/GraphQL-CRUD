@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^4.5.1",
     "@types/fingerprintjs2": "^2.0.0",
     "@types/google-map-react": "^0.23.12",
     "@types/jest": "24.0.17",
@@ -13,16 +16,22 @@
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "antd": "^3.22.0",
+    "apollo-boost": "^0.4.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-link-http": "^1.5.16",
     "commitlint": "^8.1.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "fingerprintjs2": "^2.1.0",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
     "husky": "^3.0.4",
     "mobx": "^5.15.0",
     "mobx-react-lite": "^1.5.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
+    "react-apollo": "^3.1.3",
     "react-app-rewire-workbox": "^2.0.1",
     "react-app-rewired": "^2.1.3",
     "react-dom": "^16.9.0",
@@ -37,7 +46,7 @@
     "test": "react-app-rewired test --env=jsdom",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "deploy": "firebase deploy"
+    "deploy": "serve -s build"
   },
   "husky": {
     "hooks": {
