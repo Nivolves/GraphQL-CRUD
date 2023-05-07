@@ -70,6 +70,6 @@
     "eslint": "^6.2.0",
     "eslint-config-google": "^0.13.0",
     "eslint-plugin-react": "^7.14.3",
-    "firebase-tools": "^7.3.2"
+    "firebase-tools": "^11.30.0"
   }
 }
